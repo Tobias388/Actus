@@ -91,7 +91,7 @@ body {
     background: var(--color_blue);
     border-radius: 8px;
     transition: ease .4s;
-    padding: 12px 60px;
+    padding: 12px 40px;
 
     display: flex;
     justify-content: space-between;
