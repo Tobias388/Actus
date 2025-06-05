@@ -1,0 +1,131 @@
+:root {
+    --color_light_blue: #2af8c5;
+    --color_white: #ffffff;
+    --color_dark_blue: #000033;
+    --color_blue: #1f1ff1;
+    --color_off_white: #ebebeb;
+    --font: "Inter", sans-serif;
+    ;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100%;
+    height: 100dvh;
+    min-height: max-content;
+    background: var(--color_off_white);
+    font-family: var(--font);
+    padding: 20px;
+
+    display: grid;
+    place-items: center;
+}
+
+.profile {
+    width: 100%;
+    max-width: 400px;
+    min-width: 320px;
+    height: max-content;
+    background: var(--color_dark_blue);
+    border-radius: 14px;
+    padding: 20px;
+
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    gap: 14px;
+}
+
+.avatar {
+    width: 96px;
+    height: 96px;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+.name {
+    text-align: center;
+    color: var(--color_white);
+    font-weight: 700;
+}
+
+.location {
+    color: var(--color_light_blue);
+    font-weight: 600;
+}
+
+.desc {
+    color: var(--color_white);
+    opacity: .8;
+    text-align: center;
+    font-weight: 400;
+}
+
+.links {
+    width: 100%;
+    height: auto;
+    list-style: none;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.link {
+    width: 100%;
+    text-align: center;
+}
+
+.link_a {
+    width: 100%;
+    padding: 12px;
+    text-decoration: none;
+    background: var(--color_blue);
+    border-radius: 8px;
+    transition: ease .4s;
+    padding: 12px 60px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 20px;
+}
+
+.link_text {
+    width: auto;
+    height: auto;
+    color: var(--color_white);
+    font-weight: 600;
+    transition: ease .4s;
+}
+
+.link_icon {
+    width: 42px;
+    height: 42px;
+    filter: invert(100%);
+    border-radius: 50%;
+    transition: ease .4s;
+}
+
+@media(hover:hover) {
+    .link_a:hover {
+        background: var(--color_light_blue);
+        color: var(--color_dark_blue);
+    }
+
+    .link_a:hover .link_text {
+        color: var(--color_dark_blue);
+    }
+
+    .link_a:hover .link_icon {
+        background: #ffffcc;
+    }
+}
