@@ -1,66 +1,278 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="es">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@100..900&display=swap" rel="stylesheet">
-
-    <link rel="shortcut icon" href="media/icons/tobias_oviedo_logo.png" type="image/x-icon">
-
-    <link rel="stylesheet" href="style.css">
-
-    <title>Tobias Oviedo</title>
+    <title>Tobias Oviedo - Desarrollador Full Stack</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800;900&display=swap" rel="stylesheet">
 </head>
-
 <body>
+    <div class="container">
+        <!-- Header -->
+        <header class="header">
+            <div class="header-content">
+                <div class="logo">
+                    <div class="logo-icon">
+                        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polyline points="16,18 22,12 16,6"></polyline>
+                            <polyline points="8,6 2,12 8,18"></polyline>
+                        </svg>
+                    </div>
+                    <h1>TOBIAS OVIEDO</h1>
+                </div>
+                <nav class="nav">
+                    <a href="#home">Inicio</a>
+                    <a href="#about">Sobre Mí</a>
+                    <a href="#services">Servicios</a>
+                    <a href="#contact">Contacto</a>
+                </nav>
+                <div class="header-icons">
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <circle cx="11" cy="11" r="8"></circle>
+                        <path d="m21 21-4.35-4.35"></path>
+                    </svg>
+                    <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"></path>
+                        <circle cx="12" cy="7" r="4"></circle>
+                    </svg>
+                </div>
+            </div>
+        </header>
 
-    <div class="profile">
-        <img src="media/icons/tobias_oviedo_logo.png" alt="" class="avatar">
-        <p class="location">Buenos Aires, Argentina</p>
-        <p class="desc">Desarrollador Front-End | Técnico en programación</p>
+        <!-- Hero Section -->
+        <section class="hero" id="home">
+            <!-- Floating Elements -->
+            <div class="floating-elements">
+                <div class="float-element float-1"></div>
+                <div class="float-element float-2"></div>
+                <div class="float-element float-3"></div>
+                <div class="float-element float-4"></div>
+                <div class="float-element float-5"></div>
+            </div>
 
-        <ul class="links">
-            <li class="link">
-                <a href="https://www.linkedin.com/in/tobias-oviedo-29518b1b2/" class="link_a" target="_blank">
-                    <span class="link_text">LinkedIn</span>
-                    <img src="media/icons/linkedin_icon.png" alt="LinkedIn" class="link_icon">
-                </a>
-            </li>
-            <li class="link">
-                <a href="https://www.instagram.com/oviedo_tobias/" class="link_a" target="_blank">
-                    <span class="link_text">Instagram (Personal)</span>
-                    <img src="media/icons/instagram_icon.png" alt="Instagram" class="link_icon">
-                </a>
-            </li>
-            <li class="link">
-                <a href="https://www.instagram.com/netweb.dev/" class="link_a" target="_blank"><span class="link_text">Instagram (Net Web)</span>
-                    <img src="media/icons/instagram_icon.png" alt="Instagram" class="link_icon"></a>
-            </li>
-            <li class="link">
-                <a href="https://wa.me/+541126342839?text=Hola mi nombre es... y estoy interesado en..." class="link_a" target="_blank">
-                    <span class="link_text">WhatsApp</span>
-                    <img src="media/icons/whatsapp_icon.png" alt="WhatsApp" class="link_icon">
-                </a>
-            </li>
-            <li class="link">
-                <a href="https://github.com/Tobias388" class="link_a" target="_blank">
-                    <span class="link_text">GitHub</span>
-                    <img src="media/icons/github_icon.png" alt="GitHub" class="link_icon">
-                </a>
-            </li>
-            <li class="link">
-                <a href="https://www.behance.net/tobiasoviedo" class="link_a" target="_blank">
-                    <span class="link_text">Behance</span>
-                    <img src="media/icons/behance_icon.png" alt="Behance" class="link_icon">
-                </a>
-            </li>
-        </ul>
+            <div class="hero-content">
+                <div class="badge">Desarrollador Full Stack</div>
+                <h2 class="hero-title">
+                    Soluciones Web
+                    <span class="gradient-text">de Alto Impacto</span>
+                </h2>
+                <p class="hero-description">
+                    Desarrollador Full Stack con 5 años de experiencia, fundador de NetWeb y docente especializado en crear
+                    aplicaciones web que impulsan el crecimiento empresarial.
+                </p>
+
+                <!-- Central 3D Element -->
+                <div class="central-element">
+                    <div class="sphere-container">
+                        <div class="sphere sphere-1"></div>
+                        <div class="sphere sphere-2"></div>
+                        <div class="sphere sphere-3"></div>
+                    </div>
+                </div>
+
+                <!-- Stats -->
+                <div class="stats">
+                    <div class="stat">
+                        <div class="stat-number">5+</div>
+                        <div class="stat-label">Años de Experiencia</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">50+</div>
+                        <div class="stat-label">Proyectos Completados</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">3</div>
+                        <div class="stat-label">Años Enseñando</div>
+                    </div>
+                    <div class="stat">
+                        <div class="stat-number">100%</div>
+                        <div class="stat-label">Clientes Satisfechos</div>
+                    </div>
+                </div>
+
+                <div class="hero-buttons">
+                    <button class="btn btn-primary">Ver Proyectos</button>
+                    <button class="btn btn-secondary">
+                        <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                            <polygon points="5,3 19,12 5,21 5,3"></polygon>
+                        </svg>
+                        Descargar CV
+                    </button>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section class="about" id="about">
+            <div class="section-content">
+                <div class="about-text">
+                    <div class="badge badge-purple">Mi Historia</div>
+                    <h3 class="section-title">
+                        Fundador de
+                        <span class="gradient-text-purple">NetWeb Agency</span>
+                    </h3>
+                    <p class="section-description">
+                        Con solo 21 años, he transformado mi pasión por la programación en una carrera sólida. Como CEO de
+                        NetWeb, lidero proyectos desde la concepción hasta el lanzamiento, combinando habilidades técnicas con
+                        visión empresarial. Mi experiencia como docente me permite comunicar ideas complejas de manera clara y
+                        efectiva.
+                    </p>
+                    <div class="about-buttons">
+                        <button class="btn btn-primary">Conocer Más</button>
+                        <button class="btn btn-secondary">NetWeb Agency →</button>
+                    </div>
+                </div>
+                <div class="about-visual">
+                    <div class="sphere-container-2">
+                        <div class="sphere-about sphere-about-1"></div>
+                        <div class="sphere-about sphere-about-2"></div>
+                        <div class="sphere-about sphere-about-3"></div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills Section -->
+        <section class="skills">
+            <div class="section-content">
+                <div class="skills-visual">
+                    <div class="sphere-container-3">
+                        <div class="sphere-skills sphere-skills-1"></div>
+                        <div class="sphere-skills sphere-skills-2"></div>
+                    </div>
+                </div>
+                <div class="skills-text">
+                    <div class="badge badge-teal">Stack Tecnológico</div>
+                    <h3 class="section-title">
+                        Tecnologías
+                        <span class="gradient-text-teal">Modernas</span>
+                    </h3>
+                    <p class="section-description">
+                        Dominio completo del stack de desarrollo web moderno, desde frontend hasta backend, con experiencia en
+                        frameworks actuales y metodologías ágiles.
+                    </p>
+                    <div class="skills-grid">
+                        <div class="skill-card">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polyline points="16,18 22,12 16,6"></polyline>
+                                <polyline points="8,6 2,12 8,18"></polyline>
+                            </svg>
+                            <h4>Frontend</h4>
+                            <p>React.js, Vue.js, HTML5, CSS3</p>
+                        </div>
+                        <div class="skill-card">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <ellipse cx="12" cy="5" rx="9" ry="3"></ellipse>
+                                <path d="M21 12c0 1.66-4 3-9 3s-9-1.34-9-3"></path>
+                                <path d="M3 5v14c0 1.66 4 3 9 3s9-1.34 9-3V5"></path>
+                            </svg>
+                            <h4>Backend</h4>
+                            <p>Node.js, PHP, Python, MySQL</p>
+                        </div>
+                        <div class="skill-card">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <polygon points="13,2 3,14 12,14 11,22 21,10 12,10 13,2"></polygon>
+                            </svg>
+                            <h4>Herramientas</h4>
+                            <p>Git, GitHub, Gulp.js, VS Code</p>
+                        </div>
+                        <div class="skill-card">
+                            <svg width="32" height="32" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                <circle cx="12" cy="12" r="10"></circle>
+                                <line x1="2" y1="12" x2="22" y2="12"></line>
+                                <path d="M12,2a15.3,15.3 0 0 1 4,10 15.3,15.3 0 0 1 -4,10 15.3,15.3 0 0 1 -4,-10 15.3,15.3 0 0 1 4,-10z"></path>
+                            </svg>
+                            <h4>Especialización</h4>
+                            <p>Aplicaciones web escalables</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section class="contact" id="contact">
+            <div class="contact-content">
+                <h3 class="contact-title">¿Listo para tu próximo proyecto?</h3>
+                <p class="contact-description">
+                    Transformemos tu idea en una solución web exitosa. Contacta conmigo para discutir cómo puedo ayudarte a
+                    alcanzar tus objetivos digitales.
+                </p>
+                <div class="contact-form-container">
+                    <form class="contact-form">
+                        <input type="text" placeholder="Tu Nombre" class="form-input">
+                        <input type="email" placeholder="Tu Email" class="form-input">
+                        <input type="text" placeholder="Tu Empresa" class="form-input">
+                        <select class="form-input">
+                            <option value="">Tipo de Proyecto</option>
+                            <option value="webapp">Aplicación Web</option>
+                            <option value="ecommerce">E-commerce</option>
+                            <option value="landing">Landing Page</option>
+                            <option value="consulting">Consultoría</option>
+                        </select>
+                        <button type="submit" class="btn btn-primary btn-full">Enviar Mensaje</button>
+                    </form>
+                </div>
+            </div>
+        </section>
+
+        <!-- Footer -->
+        <footer class="footer">
+            <div class="footer-content">
+                <div class="footer-grid">
+                    <div class="footer-section">
+                        <div class="footer-logo">
+                            <div class="logo-icon">
+                                <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2">
+                                    <polyline points="16,18 22,12 16,6"></polyline>
+                                    <polyline points="8,6 2,12 8,18"></polyline>
+                                </svg>
+                            </div>
+                            <h4>TOBIAS OVIEDO</h4>
+                        </div>
+                        <p>Desarrollador Full Stack especializado en crear soluciones web que impulsan el crecimiento empresarial.</p>
+                    </div>
+                    <div class="footer-section">
+                        <h5>Servicios</h5>
+                        <ul>
+                            <li><a href="#">Desarrollo Web</a></li>
+                            <li><a href="#">E-commerce</a></li>
+                            <li><a href="#">Consultoría</a></li>
+                            <li><a href="#">Docencia</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h5>Empresa</h5>
+                        <ul>
+                            <li><a href="#">NetWeb Agency</a></li>
+                            <li><a href="#">Portafolio</a></li>
+                            <li><a href="#">Blog</a></li>
+                            <li><a href="#">Recursos</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-section">
+                        <h5>Contacto</h5>
+                        <ul>
+                            <li>tobiasoviedo41@gmail.com</li>
+                            <li>+54 9 11 2634 2839</li>
+                            <li>Buenos Aires, Argentina</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="footer-bottom">
+                    <p>© 2024 Tobias Oviedo. Todos los derechos reservados.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">Facebook</a>
+                        <a href="#" class="social-link">Twitter</a>
+                        <a href="#" class="social-link">LinkedIn</a>
+                        <a href="#" class="social-link">Instagram</a>
+                    </div>
+                </div>
+            </div>
+        </footer>
     </div>
 
+    <script src="script.js"></script>
 </body>
-
 </html>
