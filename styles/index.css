@@ -96,11 +96,12 @@
 }
 
 .banner_characteristic {
-    min-width: 180px;
+    width: 100%;
+    max-width: 200px;
     height: auto;
 
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     column-gap: 20px;
 }
@@ -496,11 +497,12 @@
 }
 
 .section_cta_characteristic {
-    min-width: 180px;
+    width: 100%;
+    max-width: 200px;
     height: auto;
 
     display: flex;
-    justify-content: center;
+    justify-content: flex-start;
     align-items: center;
     column-gap: 20px;
 }
